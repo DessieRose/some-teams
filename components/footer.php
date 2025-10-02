@@ -1,8 +1,5 @@
     <footer>
-        <ul>
-            <a href="../index.php">Home</a>
-            <a href="/components/about.php">About</a>
-        </ul>
+        <p>&copy; 2025 Football Teams | Made by Nathalie Rosenkvist</p>
     </footer>
 </body>
 </html>
