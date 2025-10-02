@@ -8,8 +8,6 @@ body {
     
 }
 
-
-
 nav {
     position: sticky;
     top: 0;
@@ -25,6 +23,7 @@ a {
     text-decoration: none;
     display: inline-block;
 }
+
 
 footer a {
     padding: 7px;
@@ -46,6 +45,7 @@ footer a {
     padding: 20px;
     margin: 20px;
     text-align: center;
+    
 }   
 
 .box:hover {
@@ -63,7 +63,7 @@ footer a {
     padding: 25px;
 }
 
-.box h4 {
+.box h4, h3 {
     padding: 20px;
     font-size: 20px;
     color: #222;
