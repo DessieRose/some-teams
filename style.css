@@ -8,15 +8,27 @@ body {
     
 }
 
+
+
 nav {
     position: sticky;
     top: 0;
     width: 100%;
     height: 70px;
-    background-color: #1a4d2e;
+    background-color: #517d67;
 }
 
+a {
+    color: #fff;
+    font-size: 20px;
+    margin: 17px;
+    text-decoration: none;
+    display: inline-block;
+}
 
+footer a {
+    padding: 7px;
+}
 
 .boxes {
     display: flex;
@@ -29,7 +41,6 @@ nav {
 }
 
 .box {
-    border: 2px;
     border-radius: 20px;
     background-color: #f4f4f9;
     padding: 20px;
@@ -37,9 +48,19 @@ nav {
     text-align: center;
 }   
 
+.box:hover {
+    cursor: pointer;
+    background-color: #d3d3da;
+    box-shadow: 5px 5px 10px #939393;
+}
+
 .box img {
-    width: auto;
-    height: 200px;
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
 }
 
 .box h4 {
@@ -51,5 +72,5 @@ nav {
 footer {
     width: 100%;
     height: 70px;
-    background-color: #1a4d2e;
+    background-color: #517d67;
 }
