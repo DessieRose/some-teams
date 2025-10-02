@@ -1,8 +1,6 @@
 <?php
-
 require (__DIR__ . "/components/header.php");
 require (__DIR__ . "/components/data.php");
-
 ?>
 
     <div class="boxes">
@@ -17,4 +15,7 @@ require (__DIR__ . "/components/data.php");
             <?php
             }    
         
-
+?>
+<?php
+require (__DIR__ . "/components/footer.php");
+?>

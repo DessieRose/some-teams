@@ -4,10 +4,5 @@
             <a href="about.php">About</a>
         </ul>
     </footer>
-
-
-
-
-
 </body>
 </html>
