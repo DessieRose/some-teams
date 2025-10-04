@@ -8,13 +8,15 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="nav container">
             <h1>Football Teams</h1>
             <nav>
                 <a href="../index.php">Home</a>
                 <a href="/components/about.php">About</a>
             </nav>
         </div>
+
+
     </header>
 
 
