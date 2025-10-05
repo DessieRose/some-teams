@@ -24,23 +24,35 @@ require (__DIR__ . "/components/data.php");
     </div>
     <!-- slideshow end -->
 
-    <div class="boxes">
-        <?php
-        foreach ($teams as $key => $value) {
-        ?> <a class="box-link" href="/components/teams.php">
-            <div class="box"> 
-                <h3> Ranking: <?= $value['uefa-coefficient-ranking']; ?></h3>
-                <img src="<?= $value['logo']; ?>" alt="<?= $key; ?>">
-                <h4> <?= $key; ?> </h4>
-            </div><br>
-        </a>
-        <?php
-        }?>
-    </div> 
-    <?php 
-          
-        
-?>
+    <div class="container_ranking">
+        <div class="ranking_title">
+            <h2>UEFA RANKING</h2>
+        </div>
+
+        <div class="ranking_description">
+            <div class="team-logo"></div>
+            <div class="team-name"><h3>Teams</h3></div>
+            <div class="team-country"><h3>Contry</h3></div>
+            <div class="team-rank"><h3>Ranking</h3></div>
+            <div class="arrow"></div>
+        </div>
+
+        <?php foreach ($teams as $key => $value): 
+            if (preg_match('/\((.*?)\)/', $value['league'], $m)); ?>
+            <a href="">
+                <div class="ranking_row">   
+                    <div class="team-logo"><img src="<?= $value['logo']; ?>" alt="<?= $key; ?>"></div>
+                    <div class="team-name"><p><?= $key; ?></p></div>
+                    <div class="team-country"><p><?= $m[1]; ?></p></div>
+                    <div class="team-rank"><p><?= $value['uefa-coefficient-ranking']; ?></p></div>
+                    <div class="arrow">&#8594;</div>
+                </div>
+            </a>
+        <?php endforeach; ?>   
+    </div>
+
+
+
 <?php
 require (__DIR__ . "/components/footer.php");
 ?>

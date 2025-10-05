@@ -9,6 +9,10 @@ body {
     
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /* header */
 
@@ -35,7 +39,6 @@ nav {
 header nav a {
     color: white;
     margin-left: 1rem;
-    text-decoration: none;
     font-weight: 500;
 }
 
@@ -95,51 +98,102 @@ footer p {
     padding: 0.5rem;
 }
 
-
-
-
-/* Team grid */
-.boxes {
+/* UEFA RANKING */
+.container_ranking {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
-    margin: 0 100px 0 100px;
-    height: auto;
+    gap: 0.6rem;
+    width: 100%;
+}
+
+.ranking_title h2 {
+    color: #0A2540;
+    font-size: 25px;
+    font-weight: 200;
+    margin: 40px 0 20px;
+}
+
+/* header row description */
+.ranking_description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    color: #0A2540;
+    font-weight: 600;
+    padding: 0.5rem 1.2rem;
 
 }
 
-.box {
-    border-radius: 20px;
-    background-color:  #0057B7;
-    padding: 20px;
-    margin: 20px;
+.ranking_description > div { 
+    flex: 1;
     text-align: center;
-    
-}   
-
-.box:hover {
-    cursor: pointer;
-    background-color: #0A2540;
-    box-shadow: 5px 5px 10px  #ababab;
 }
 
-.box img {
-    display: block;
-    width: 200px;
-    height: auto;
-    margin: auto;
+/* Data rows */
+.ranking_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    background: #0057B7;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+.ranking_row:hover {
+    background: #003f88;
+}
+
+.ranking_row > div {
+    flex: 1;
     text-align: center;
-    padding: 25px;
 }
 
-.box h4, h3 {
-    padding: 20px;
+.team-logo {
+    flex: 0 0 60px;
+    text-align: left;
+}
+
+.team-logo img {
+    height: 40px;
+    width: auto;
+    vertical-align: middle;
+    object-fit: contain;
+}
+
+.team-name {
+    flex: 2;
+    text-align: left;
+}
+
+.team-country, 
+.team-rank {
+    flex: 1;
+}
+
+.arrow {
+    flex: 0 0 30px;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+/* .ranking_box div {
+    justify-content: center;
+    color: #f2f2f2;
     font-size: 20px;
-    color: #f8f9fb;
-    
+    font-weight: 200;
+    padding: 0 30px 0 30px ;
 }
 
-.box-link {
-    text-decoration: none;
-}
+.ranking_box img {
+    width: auto;
+    height: 60px;
+} 
+
+.ranking_box span {
+    font-size: 40px;
+} */
