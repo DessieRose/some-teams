@@ -9,7 +9,7 @@ require (__DIR__ . "/components/data.php");
             <h2>U-20 World Cup tiebreakers</h2> 
         </div>
         <div class="slideshow-images">
-            <img src="https://images.unsplash.com/photo-1506183478292-c7c59060a75b?q=80&w=3733&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="fotboll">
+            <div class="header-img"><img src="https://images.unsplash.com/photo-1506183478292-c7c59060a75b?q=80&w=3733&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="fotboll"></div>
         </div>
     
         <!-- <div class="slideshow-images fade">

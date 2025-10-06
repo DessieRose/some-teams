@@ -47,10 +47,10 @@ header nav a:hover {
 }
 
 
-/* slideshow */
+/* header imgage */
 
 .slideshow-container {
-    display: row;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -76,7 +76,7 @@ header nav a:hover {
 
 .slideshow-text h2 {
     color: #f2f2f2;
-    font-size: 50px;
+    font-size: 5vh;
     font-weight: 600;
     padding: 10px 25px 10px 25px;
     border-radius: 5px;
