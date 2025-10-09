@@ -2,13 +2,19 @@
 require (__DIR__ . "/header.php"); 
 ?>
 
-    <div class="about_start">
+    <div class="about-title">
         <h1>About</h1><br>
-        <h2>Nathalie Rosenkvist</h2><br>
-        <img src="" alt="image on creator">
     </div>
-    <div class="about_text">
-        <p>testbfjehif</p>
+    <div class="about-container">
+        <div class="about-img">
+            <img src="" alt="image on creator">
+        </div>
+        <div class="about-header">
+            <h2>About creator</h2><br>
+        </div>
+        <div class="about-text">
+            <p></p>
+        </div>
     </div>
 
 
