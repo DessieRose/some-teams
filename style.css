@@ -1,3 +1,12 @@
+:root {
+    --dark-blue: #0A2540;
+    --blue: #0058b7;
+    --background: #f8f9fb;
+    --black: #222;
+    --off-white: #f2f2f2;
+    --action-color: #f9a826;
+  }
+
 * {
     margin: 0;
 }
@@ -17,8 +26,8 @@ a {
 /* header */
 
 header {
-    background: #0A2540;
-    color: white;
+    background: var(--dark-blue);
+    color: var(--off-white);
     padding: 1rem 2rem;
     position: sticky;
     top: 0;
@@ -37,7 +46,7 @@ nav {
 }
 
 header nav a {
-    color: white;
+    color: var(--off-white);
     margin-left: 1rem;
     font-weight: 500;
 }
@@ -75,24 +84,23 @@ header nav a:hover {
 }
 
 .slideshow-text h2 {
-    color: #f2f2f2;
+    color: var(--off-white);
     font-size: 5vh;
     font-weight: 600;
     padding: 10px 25px 10px 25px;
     border-radius: 5px;
-    background-color: rgba(0, 87, 183, 0.7);
+    background-color: #0057b7b3;
 }
 
 
 /* Footer */
 footer {
     bottom: 0;
-    width: 100%;
-    background: #0A2540;
-    color: white;
+    background: var(--dark-blue);
+    color: var(--off-white);
     text-align: center;
     padding: 1rem;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 footer p {
@@ -106,10 +114,11 @@ footer p {
     align-items: center;
     gap: 0.6rem;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .ranking_title h2 {
-    color: #0A2540;
+    color: var(--dark-blue);
     font-size: 30px;
     font-weight: 200;
     margin: 40px 0 20px;
@@ -121,7 +130,7 @@ footer p {
     align-items: center;
     justify-content: space-between;
     width: 1000px;
-    color: #0A2540;
+    color: var(--dark-blue);
     font-weight: 600;
     padding: 0.5rem 1.2rem;
 
@@ -138,15 +147,15 @@ footer p {
     align-items: center;
     justify-content: space-between;
     width: 1000px;
-    background: #0057B7;
-    color: white;
+    background-color: var(--blue);
+    color: var(--off-white);
     padding: 0.8rem 1.2rem;
     border-radius: 6px;
     transition: background 0.2s;
 }
 
 .ranking_row:hover {
-    background: #003f88;
+    background: var(--dark-blue);
 }
 
 .ranking_row > div {
@@ -180,32 +189,5 @@ footer p {
     flex: 0 0 30px;
     font-size: 1.2rem;
     text-align: right;
-}
-
-/* About style */
-.about-title h2 {
-    text-align: center;
-    margin-top: 50px;
-    font-size: 30px;
-    font-weight: 200;
-    color: #0A2540;
-}
-
-.about-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-
-}
-
-.about-img {
-    max-width: 400px;
-    margin: 0 2em 0 2em;
-}
-
-.about-text {
-    width: 400px;
-    margin: 40px;
 }
 

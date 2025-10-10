@@ -11,34 +11,25 @@ require (__DIR__ . "/header.php");
         </div>
         <div class="about-text">
             <h2 class="about-header">About creator</h2><br>
-            <p>Hi! My name is Nathalie Rosenkvist and I’m a 27-year-old web development student at Yrgo in Gothenburg.</P> <br>
-            <p>I’m currently studying to become a full-stack developer and I’m passionate about clean design, functional code, user-friendly websites and always learning something new. </p><br>
-            <p> What I enjoy most about web development is the perfect mix between creativity, logic and designing beautiful interfaces while also solving technical challenges behind the scenes.
-            When I’m not coding, you’ll often find me at the gym or playing games or enjoying time outdoors with friends and family. </p><br>
-            <p>This website is part of my studies at Yrgo, where I get to combine my interests in technology, design, problem solving while building real-world projects.</p>
-        </div>
+            <p>Hi! My name is Nathalie Rosenkvist and I’m a 27-year-old web development student at Yrgo in Gothenburg.</p>
+            <p>I’m currently studying to become a full-stack developer and I’m passionate about clean design, functional code, user-friendly websites and always learning something new.
+            What I enjoy most about web development is the perfect mix between creativity, logic and designing beautiful interfaces while also solving technical challenges behind the scenes.
+            When I’m not coding, you’ll often find me at the gym or playing games or enjoying time outdoors with friends and family.</p>
+            <p>This website is part of my studies at Yrgo, where I get to combine my interests in technology, design, problem solving while building real-world projects.
+        </div> 
 
         <!-- Cards stars -->
         <div class="cards">
             <div class="card">
-                <h2>An amazing office space</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-                <div class="card-arrow"></div>
-            </div>
-            <div class="card">
-                <h2>Have you seen my cat?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-                <div class="card-arrow"></div>
-            </div>
-            <div class="card">
-                <h2>Win 5 million dollars!</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodLorem ipsum dolor sit amet, cons</p>
-                <div class="card-arrow"></div>
-            </div>
-            <div class="card">
-                <h2>Developers! Look at this.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodLorem ipsum dolor sit amet, cons</p>
-                <div class="card-arrow"></div>
+                <!-- <div class="card-img">
+                    <img src="https://images.unsplash.com/flagged/photo-1595514191830-3e96a518989b?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Bild på vår VD">
+                </div> -->
+                <h2>Contact me</h2>
+                <p>Have a question, idea, or just want to connect? I’d love to hear from you! Whether you’re curious about my projects, want to collaborate, or simply want to chat about web development, don’t hesitate to reach out.</p> 
+                <p>Let’s create something great together!</p>
+                <button>Mail</button>
+                <button>Phone</button>
+
             </div>
         </div>
     </div>
