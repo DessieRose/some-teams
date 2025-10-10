@@ -84,9 +84,10 @@ header nav a:hover {
 }
 
 
-/* footer */
-
+/* Footer */
 footer {
+    bottom: 0;
+    width: 100%;
     background: #0A2540;
     color: white;
     text-align: center;
@@ -203,21 +204,8 @@ footer p {
     margin: 0 2em 0 2em;
 }
 
-
-
-/* .ranking_box div {
-    justify-content: center;
-    color: #f2f2f2;
-    font-size: 20px;
-    font-weight: 200;
-    padding: 0 30px 0 30px ;
+.about-text {
+    width: 400px;
+    margin: 40px;
 }
 
-.ranking_box img {
-    width: auto;
-    height: 60px;
-} 
-
-.ranking_box span {
-    font-size: 40px;
-} */
