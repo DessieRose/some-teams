@@ -10,8 +10,6 @@ The website showcases information about various European football teams, their l
 The project consists of a small dynamic website built with **HTML**, **CSS**, and **PHP**.  
 It demonstrates basic dynamic data rendering using PHP arrays and pages with shared components like headers, navigation, and footers.
 
----
-
 ### Pages:
 - **Home page (index.php):**  
   Displays a list of 18 football teams with their logos, countries (extracted from the league name), and UEFA ranking.
