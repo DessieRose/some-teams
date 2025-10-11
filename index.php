@@ -1,6 +1,6 @@
 <?php
-require (__DIR__ . "components/header.php");
-require (__DIR__ . "components/data.php");
+require (__DIR__ . "/components/header.php");
+require (__DIR__ . "/components/data.php");
 ?>
 
     <!-- header image -->
@@ -44,5 +44,5 @@ require (__DIR__ . "components/data.php");
 
 
 <?php
-require (__DIR__ . "components/footer.php");
+require (__DIR__ . "/components/footer.php");
 ?>

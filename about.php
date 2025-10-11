@@ -1,5 +1,5 @@
 <?php 
-require (__DIR__ . "./header.php"); 
+require (__DIR__ . "/components/header.php"); 
 ?>
 
     <div class="about-title">
@@ -7,7 +7,7 @@ require (__DIR__ . "./header.php");
     </div>
     <div class="about-container">
         <div class="about-img-container">
-            <img class="about-img" src="/image/IMG_1090.jpg" alt="image on creator">
+            <img class="about-img" src="./image/IMG_1090.jpg" alt="image on creator">
         </div>
         <div class="about-text">
             <h2 class="about-header">About creator</h2><br>
@@ -21,9 +21,6 @@ require (__DIR__ . "./header.php");
         <!-- Cards stars -->
         <div class="cards">
             <div class="card">
-                <!-- <div class="card-img">
-                    <img src="https://images.unsplash.com/flagged/photo-1595514191830-3e96a518989b?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Bild på vår VD">
-                </div> -->
                 <h2>Contact me</h2>
                 <p>Have a question, idea, or just want to connect? I’d love to hear from you! Whether you’re curious about my projects, want to collaborate, or simply want to chat about web development, don’t hesitate to reach out. <br>
                 Let’s create something great together!</p>
@@ -41,5 +38,5 @@ require (__DIR__ . "./header.php");
 
 
 <?php 
-require (__DIR__ . "./footer.php"); 
+require (__DIR__ . "/components/footer.php"); 
 ?>

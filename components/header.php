@@ -10,17 +10,10 @@
 <body>
     <header>
         <div class="nav container">
-            <a class="header-logo" href="/index.php">Football Teams</a>
+            <a class="header-logo" href="./index.php">Football Teams</a>
             <nav>
                 <a href="./index.php">Home</a>
-                <a href="components/about.php">About</a>
+                <a href="./about.php">About</a>
             </nav>
         </div>
-
-
     </header>
-
-
-    
-
-    

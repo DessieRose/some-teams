@@ -55,6 +55,7 @@ header nav a {
     color: var(--off-white);
     margin-left: 1rem;
     font-weight: 500;
+    font-size: 20px;
 }
 
 header nav a:hover {
@@ -65,7 +66,6 @@ header nav a:hover {
     height: 70vh;
     background-color: var(--blue);
 }
-
 
 
 /* header imgage */
@@ -102,7 +102,6 @@ header nav a:hover {
 .header-img img {
     max-width: 2670px;
     max-height: 1780px;
-    
 }
 
 
@@ -113,12 +112,12 @@ footer {
     color: var(--off-white);
     text-align: center;
     padding: 1rem;
-    /* margin-top: 2rem; */
 }
 
 footer p {
     padding: 0.5rem;
 }
+
 
 /* UEFA RANKING */
 .container_ranking {
@@ -136,6 +135,7 @@ footer p {
     margin: 40px 0 20px;
 }
 
+
 /* header row description */
 .ranking_description {
     display: flex;
@@ -152,6 +152,7 @@ footer p {
     flex: 1;
     text-align: center;
 }
+
 
 /* Data rows */
 .ranking_row {
