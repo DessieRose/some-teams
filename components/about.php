@@ -25,10 +25,10 @@ require (__DIR__ . "/header.php");
                     <img src="https://images.unsplash.com/flagged/photo-1595514191830-3e96a518989b?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Bild på vår VD">
                 </div> -->
                 <h2>Contact me</h2>
-                <p>Have a question, idea, or just want to connect? I’d love to hear from you! Whether you’re curious about my projects, want to collaborate, or simply want to chat about web development, don’t hesitate to reach out.</p> 
-                <p>Let’s create something great together!</p>
-                <button>Mail</button>
-                <button>Phone</button>
+                <p>Have a question, idea, or just want to connect? I’d love to hear from you! Whether you’re curious about my projects, want to collaborate, or simply want to chat about web development, don’t hesitate to reach out. <br>
+                Let’s create something great together!</p>
+                <a href="mailto:rosenkvist98@gmail.com">Mail me</a>
+                <a href="tel:0703913121">Call me</a>
 
             </div>
         </div>

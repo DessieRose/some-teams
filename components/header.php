@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="nav container">
-            <h1>Football Teams</h1>
+            <a class="header-logo" href="/index.php">Football Teams</a>
             <nav>
                 <a href="../index.php">Home</a>
                 <a href="/components/about.php">About</a>

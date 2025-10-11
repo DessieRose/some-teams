@@ -1,11 +1,11 @@
 :root {
     --dark-blue: #0A2540;
     --blue: #0058b7;
-    --background: #f8f9fb;
+    --gray: #c2c2c2;
     --black: #222;
     --off-white: #f2f2f2;
     --action-color: #f9a826;
-  }
+    }
 
 * {
     margin: 0;
@@ -13,13 +13,19 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #f8f9fb;
-    color: #222;
+    background: var(--off-white);
+    color: var(--black);
     
 }
 
 a {
     text-decoration: none;
+}
+
+.header-logo {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--off-white);
 }
 
 
@@ -52,44 +58,51 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #f9a826;
+    color: var(--action-color);
 }
+
+.header-img {
+    height: 70vh;
+    background-color: var(--blue);
+}
+
 
 
 /* header imgage */
 
-.slideshow-container {
+.header-img-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.slideshow-images {
-    height: auto;
-    width: 100%;
-    flex-grow: 1;
-}
-
-.slideshow-images img{
-    width: 100%;
-    max-height: 60vh;
-    min-width: 0;
-}
-
-.slideshow-text {
+.header-img-text {
    position: absolute;
    justify-self: center;
    padding: 60px 0 0 0;
    
 }
 
-.slideshow-text h2 {
+.header-img-text h2 {
     color: var(--off-white);
     font-size: 5vh;
     font-weight: 600;
     padding: 10px 25px 10px 25px;
     border-radius: 5px;
-    background-color: #0057b7b3;
+    background-color: var(--blue);
+}
+
+.header-image {
+    display: flex;
+    justify-content: center;
+    background-color: var(--blue);
+    overflow: hidden;
+}
+
+.header-img img {
+    max-width: 2670px;
+    max-height: 1780px;
+    
 }
 
 
@@ -113,7 +126,6 @@ footer p {
     flex-direction: column;
     align-items: center;
     gap: 0.6rem;
-    width: 100%;
     margin-bottom: 20px;
 }
 

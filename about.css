@@ -1,7 +1,6 @@
 :root {
 --dark-blue: #0A2540;
 --blue: #0058b7;
---background: #f8f9fb;
 --gray: #c2c2c2;
 --black: #222;
 --off-white: #f2f2f2;
@@ -51,34 +50,14 @@
 
 .card {
     border-radius: 16px;
-    width: 50vw;
+    width: 70%;
     height: auto;
     padding: 20px;
     background-color: var(--bg-gray);
     box-shadow: 3px 4px 12px #0000001A;
     background-color: var(--off-white);
     margin: 16px;
-
-}
-
-.card-img {
-    width: 200px;
-    max-height: 100px;
-}
-
-.card img {
-    width: 200px;
-    height: auto;
-}
-
-.card-tag {
-    height: 23px;
-    width: fit-content;
-    border-radius: 4px;
-    font-size: 12px;
-    font-weight: 400;
-    padding: 0 16px;
-    align-content: center;
+    padding: 15px;
 
 }
 
@@ -96,19 +75,21 @@
     line-height: 150%;
     letter-spacing: 0%;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
-button {
+.card a {
     font-size: 15px;
     background-color: var(--blue);
     border-radius: 6px;
     color: var(--off-white);
-    margin: 15px;
-    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    padding: 10px 20px;
     border: none;
+    align-content: center;
 }
 
-button:hover {
+.card a:hover {
     background-color: var(--action-color);
     cursor: pointer;
 }
